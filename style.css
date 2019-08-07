@@ -1,5 +1,3 @@
-
-
 body{
 	font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
@@ -8,22 +6,21 @@ body{
 }
 
 p{
-
-	font-weight: 300;
+    font-weight: 300;
 	font-size: 1.5rem;
 	margin: 0;
 }
 
 
 main{
-
-	height:98vh;
+    height:100vh;
 	max-width:900px;
 	margin:auto;  
 	background-color: #eee;
 	display: grid;
 	grid-template-columns: 1fr; 
 	grid-template-rows: 4fr;
+	grid-gap: 0em;
 }
 
 h1{
@@ -52,8 +49,13 @@ h1{
 	
 }
 
+
 #display{
-	height:40vh;
+	height:50vh;
+	width:auto;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
 
 }
 
@@ -77,125 +79,6 @@ h1{
 
 .display-1{
 	width:29vh;
-	height:30vh;
-	background-image: url("Images/1.png");
-	background-repeat: no-repeat;
-	background-color: ; 
-	margin:auto;
-	padding-bottom: 10vh
-	padding-top: 10vh
+	height:40vh;
 	
 }
-
-.display-2{
-	width:29vh;
-	height:30vh;
-	background-image: url("Images/2.png");
-	background-repeat: no-repeat;
-	background-color: ; 
-	margin:auto;
-	padding-bottom: 10vh
-	padding-top: 10vh
-	
-}
-
-.display-3{
-	width:29vh;
-	height:30vh;
-	background-image: url("Images/3.png");
-	background-repeat: no-repeat;
-	background-color: ; 
-	margin:auto;
-	padding-bottom: 10vh
-	padding-top: 10vh
-	
-}
-
-.display-4{
-	width:29vh;
-	height:30vh;
-	background-image: url("Images/4.png");
-	background-repeat: no-repeat;
-	background-color: ; 
-	margin:auto;
-	padding-bottom: 10vh
-	padding-top: 10vh
-	
-}
-
-.display-5{
-	width:29vh;
-	height:30vh;
-	background-image: url("Images/5.png");
-	background-repeat: no-repeat;
-	background-color: ; 
-	margin:auto;
-	padding-bottom: 10vh
-	padding-top: 10vh
-	
-}
-
-.display-6{
-	width:29vh;
-	height:30vh;
-	background-image: url("Images/6.png");
-	background-repeat: no-repeat;
-	background-color: ; 
-	margin:auto;
-	padding-bottom: 10vh
-	padding-top: 10vh
-	
-}
-
-.display-7{
-	width:29vh;
-	height:30vh;
-	background-image: url("Images/7.png");
-	background-repeat: no-repeat;
-	background-color: ; 
-	margin:auto;
-	padding-bottom: 10vh
-	padding-top: 10vh
-	
-}
-
-.display-8{
-	width:29vh;
-	height:30vh;
-	background-image: url("Images/8.png");
-	background-repeat: no-repeat;
-	background-color: ; 
-	margin:auto;
-	padding-bottom: 10vh
-	padding-top: 10vh
-	
-}
-
-.display-9{
-	width:29vh;
-	height:30vh;
-	background-image: url("Images/9.png");
-	background-repeat: no-repeat;
-	background-color: ; 
-	margin:auto;
-	padding-bottom: 10vh
-	padding-top: 10vh
-	
-}
-
-.display-10{
-	width:29vh;
-	height:30vh;
-	background-image: url("Images/10.png");
-	background-repeat: no-repeat;
-	background-color: ; 
-	margin:auto;
-	padding-bottom: 10vh
-	padding-top: 10vh
-	
-}
-
-
-
-
-
